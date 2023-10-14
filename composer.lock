@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d260ef76de08c56ed13d95c4b677bdb1",
+    "packages": [
+        {
+            "name": "oopers/maw-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CPNV-ES/oopers-maw-framework.git",
+                "reference": "12afa1bc5fd5d69c6a0771991d53306b408258b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CPNV-ES/oopers-maw-framework/zipball/12afa1bc5fd5d69c6a0771991d53306b408258b8",
+                "reference": "12afa1bc5fd5d69c6a0771991d53306b408258b8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MVC\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "dimitri-rutz",
+                    "email": "dimitri.rutz@eduvaud.ch"
+                },
+                {
+                    "name": "eliott-jaquier",
+                    "email": "eliott.jaquier@eduvaud.ch"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/CPNV-ES/oopers-maw-framework/tree/master",
+                "issues": "https://github.com/CPNV-ES/oopers-maw-framework/issues"
+            },
+            "time": "2023-09-13T13:08:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "oopers/framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "oopers/maw-framework": "master"
+    },
+    "authors": [
+        {
+            "name": "dimitri-rutz",
+            "email": "dimitri.rutz@eduvaud.ch"
+        },
+        {
+            "name": "eliott-jaquier",
+            "email": "eliott.jaquier@eduvaud.ch"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/CPNV-ES/oopers-maw-framework"
+        }
+    ]
+}
